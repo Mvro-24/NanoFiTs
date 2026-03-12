@@ -611,6 +611,9 @@ hr{
     body{
         width: min-content;
     }
+    .middle-ft ul li{
+        margin-bottom: 5px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -775,9 +778,22 @@ hr{
     }
     .top-ft{
         display: block;
-    }}
+    }
 
-@media (min-width: 801px) and (max-width: 1024px)
+}
+
+@media (min-width: 800px) and (max-width: 1035px)
  {
-    body{width: fit-content;}
+    body{width: fit-content;
+    }
+    main,footer,section{
+        height: auto;
+    }
+
+    .middle-ft ul{
+        margin-top: 10px;
+    }
+    .middle-ft ul li{
+        margin-bottom: 5px;
+    }
 }
