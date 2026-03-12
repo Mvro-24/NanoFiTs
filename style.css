@@ -777,4 +777,7 @@ hr{
         display: block;
     }}
 
-
+@media (min-width: 801px) and (max-width: 1024px)
+ {
+    body{width: fit-content;}
+}
